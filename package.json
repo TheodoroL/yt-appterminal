@@ -1,0 +1,23 @@
+{
+  "name": "yt-appterminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.7.0",
+    "readline-sync": "^1.4.10",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.7",
+    "@types/node": "^20.8.10",
+    "@types/readline-sync": "^1.4.6"
+  }
+}
